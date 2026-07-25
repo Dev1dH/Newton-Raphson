@@ -47,7 +47,7 @@ $$
 
 Para os elementos na diagonal da Jacobiana, temos:
 
-\[Para\, j = i
+$$Para\, j = i
 \left\{
 \begin{aligned}
 H_{ij} = |V_i|^2B_{ii}+Q_i\\
@@ -56,18 +56,18 @@ J_{ii} = |V_i|^2G_{ii}-P_{i}\\
 L_{ii} = |V_i|^2B_{ii}-Q_i
 \end{aligned}
 \right.
-\]
+$$
 
 Para os elementos fora da diagonal da Jacobiana, temos: 
 
-\[Para\, j \neq i
+$$Para\, j \neq i
 \left\{
 \begin{aligned}
 H_{ij} = L_{ij} = -|V_i||V_j| (G_{ij}sin\theta_{ij}-B_{ij}cos\theta{ij}) \\
 N_{ij} = J_{ij} = -|V_i||V_j| (G_{ij}sin\theta_{ij}+B_{ij}cos\theta{ij})
 \end{aligned}
 \right.
-\]
+$$
 
 o processo é repetido até que as correções se tornem tão pequenas que satisfaçam a precisão escolhida.
 
