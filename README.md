@@ -45,18 +45,13 @@ $$J=
 \end{bmatrix}
 $$
 
-Para os elementos na diagonal da Jacobiana, temos:
+Para os elementos na diagonal da Jacobiana, $j = i$ temos:
 
-$$Para\, j = i
-\left\{
-\begin{aligned}
-H_{ij} = |V_i|^2B_{ii}+Q_i\\
-N_{ii} = -|V_i|^2G_{ii}-P_{i}\\
-J_{ii} = |V_i|^2G_{ii}-P_{i}\\
-L_{ii} = |V_i|^2B_{ii}-Q_i
-\end{aligned}
-\right.
-$$
+$$H_{ij} = |V_i|^2B_{ii}+Q_i$$
+$$N_{ii} = -|V_i|^2G_{ii}-P_{i}$$
+$$J_{ii} = |V_i|^2G_{ii}-P_{i}$$
+$$L_{ii} = |V_i|^2B_{ii}-Q_i$$
+
 
 Para os elementos fora da diagonal da Jacobiana, temos: 
 
