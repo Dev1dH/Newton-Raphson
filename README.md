@@ -8,20 +8,18 @@ O erro entre as potências especificadas e as potência calculadas nas barras $i
 
 $$\Delta P = P_{esp}-|V_i|\sum_{i=1}^{n} |V_j|(G_{ij}cos\theta_{ij}+B_{ij}sen\theta_{ij})$$
 
+$$\Delta Q = Q_{esp} -|V_i|   \sum_{i=1}^{n} |V_j|(G_{ij}cos\theta_{ij}-B_{ij}sen\theta_{ij})$$
 
-\begin{equation}
-   \Delta Q = Q_{esp} -|V_i|   \sum_{i=1}^{n} |V_j|(G_{ij}cos\theta_{ij}-B_{ij}sen\theta_{ij})
-\end{equation}
 
 São agrupadas em um  único vetor de erros:
 
-\[
+$$
 \Delta F =
 \begin{bmatrix}
 \Delta P \\
 \Delta Q
 \end{bmatrix}
-\]
+$$
 
 Utilizando a expansão da série de Taylor, é possível transformar um sistema não linear em uma aproximação linear, mais fácil de ser resolvida. O método Newton-Raphson utiliza apenas a derivada de primeira ordem, 
 
