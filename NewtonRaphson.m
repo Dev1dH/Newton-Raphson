@@ -1,7 +1,3 @@
-% Método de Newton-Raphson para fluxo de potência
-% Disciplina: Análise de Sistemas Elétricos
-% Equipe discente: Davi, Devid e Jonathan
-
 clc; clear;
 
 % Admitâncias série e shunt das linhas
