@@ -27,9 +27,9 @@ $$
 \Delta P \\
 \Delta Q
 \end{bmatrix}
-
+$$
 =
-J
+$$J
 \begin{bmatrix}
 \Delta \theta \\
 \Delta V
