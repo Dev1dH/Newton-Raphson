@@ -23,7 +23,7 @@ $$
 
 Utilizando a expansão da série de Taylor, é possível transformar um sistema não linear em uma aproximação linear, mais fácil de ser resolvida. O método Newton-Raphson utiliza apenas a derivada de primeira ordem, 
 
-\[
+$$
 \begin{bmatrix}
 \Delta P \\
 \Delta Q
@@ -34,18 +34,16 @@ J
 \Delta \theta \\
 \Delta V
 \end{bmatrix}
-\]
+$$
 
 Em que $J$ é a matriz Jacobiana. A Jacobiana contém as derivadas parciais das potências em relação ás incógnitas. Ela é formada por 4 submatrizes H, N, M e L.
 
-\[
-J
-=
+$$J=
 \begin{bmatrix}
 \mathbf{H} & \mathbf{N} \\
 \mathbf{J} & \mathbf{L}
 \end{bmatrix}
-\]
+$$
 
 Para os elementos na diagonal da Jacobiana, temos:
 
