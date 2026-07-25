@@ -10,7 +10,6 @@ $$\Delta P = P_{esp}-|V_i|\sum_{i=1}^{n} |V_j|(G_{ij}cos\theta_{ij}+B_{ij}sen\th
 
 $$\Delta Q = Q_{esp} -|V_i|   \sum_{i=1}^{n} |V_j|(G_{ij}cos\theta_{ij}-B_{ij}sen\theta_{ij})$$
 
-
 São agrupadas em um  único vetor de erros:
 
 $$
@@ -28,6 +27,7 @@ $$
 \Delta P \\
 \Delta Q
 \end{bmatrix}
+
 =
 J
 \begin{bmatrix}
